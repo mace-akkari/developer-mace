@@ -14,7 +14,7 @@ const Navbar = () => {
           className="h-full w-auto"
         />
       </div>
-      <menu className="h-20 items-center px-10 font-medium rounded-bl-lg hidden md:flex gap-14 text-lg bg-custom-dark-blue flex-shrink-0">
+      <menu className="h-20 items-center px-8 font-medium rounded-bl-lg hidden md:flex gap-14 text-lg bg-custom-dark-blue flex-shrink-0">
         {navList?.map((list, index) => (
           <li key={index}>
             <a

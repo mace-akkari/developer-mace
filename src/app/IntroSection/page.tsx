@@ -11,14 +11,14 @@ const IntroSection = () => {
       <img
         src="/images/profilePic.png"
         alt="main image"
-        className="md:w-8/12 object-cover flex-1 flex items-center justify-center h-full rounded-full md:rounded-lg"
+        className="w-1/2 md:w-8/12 object-cover flex-1 flex items-center justify-center h-full rounded-full md:rounded-lg"
       />
 
       <div className="flex-1 flex flex-col items-center md:items-start">
-        <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-custom-dark-blue font-bold">
+        <h1 className="lg:text-5xl md:text-5xl text-2xl md:leading-normal leading-10 text-custom-dark-blue font-bold">
           Mace Akkari
         </h1>
-        <h3 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-custom-dark-blue">
+        <h3 className="lg:text-2.5xl md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-custom-dark-blue">
           FullStack Developer
         </h3>
         <button className="bg-white px-6 py-3 mt-8 rounded-full cursor-pointer">

@@ -1,7 +1,13 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const IntroSection = () => {
-  const social_media = [{ icon: <FaLinkedin /> }, { icon: <FaGithub /> }];
+  const social_media = [
+    {
+      icon: <FaLinkedin size="50" />,
+      link: "https://www.linkedin.com/in/maceakkari/",
+    },
+    { icon: <FaGithub size="50" />, link: "https://github.com/mace-akkari" },
+  ];
 
   return (
     <section
@@ -25,9 +31,11 @@ const IntroSection = () => {
           Contact Me
         </button>
         <ul className="mt-8 text-3xl flex text-gray-600 gap-5">
-          {social_media?.map((icon, i) => (
+          {social_media.map((social, i) => (
             <li key={i} className="hover:text-custom-dark-blue cursor-pointer">
-              {icon?.icon}
+              <a href={social.link} target="_blank" rel="noopener noreferrer">
+                {social.icon}
+              </a>
             </li>
           ))}
         </ul>

@@ -6,13 +6,13 @@ import "swiper/css/navigation";
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import ProjectCard from "./ProjectCard";
 import { projects } from "./projectsData";
-import "./ProjectSection.css"; // Ensure this path is correct
+import "./ProjectSection.css";
 
 const Project = () => {
   return (
-    <section id="projects">
-      <div className="py-10 flex justify-center text-4xl font-semibold gap-2">
-        <h3 className="text-background-blue">Projects</h3>
+    <section id="projects" className="pb-10 pt-24">
+      <div className="flex justify-center text-4xl font-semibold gap-2">
+        <h3 className="text-custom-dark-bluee">Projects</h3>
       </div>
       <br />
 
@@ -20,12 +20,6 @@ const Project = () => {
         <Swiper
           slidesPerView={1}
           spaceBetween={20}
-          breakpoints={{
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-          }}
           pagination={{
             clickable: true,
             el: ".custom-swiper-pagination",

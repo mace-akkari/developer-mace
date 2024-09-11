@@ -25,7 +25,7 @@ const IntroSection = () => {
       <img
         src="/images/profilePic.png"
         alt="main image"
-        className="md:w-3/4 object-cover flex-1 flex items-center justify-center h-full rounded-full md:rounded-lg border border-white"
+        className="md:w-3/4 object-cover flex-1 flex items-center justify-center h-full rounded-full md:rounded-lg border border-white pt-8 md:pt-0"
       />
 
       <div className="flex-1 flex flex-col items-center md:items-start">

@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <div className="flex flex-col items-center md:gap-6 gap-12 max-w-6xl mx-auto text-custom-dark-blue mt-5">
-      <p className="text-justify leading-7 w-11/12 mx-auto text-base md:text-lg lg:text-xl">
+      <p className="text-justify leading-7 w-11/12 mx-auto text-xl lg:text-2xl">
         As a passionate and experienced Full Stack Developer, I specialise in
         user-centric solutions and workflow optimization. Proficient in
         JavaScript, React, TypeScript, and Node.js, I excel in feature

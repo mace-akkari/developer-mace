@@ -38,7 +38,7 @@ const skills = [
   { icon: <TbBrandMongodb />, name: "Mongodb" },
   { icon: <TbBrandCypress />, name: "Cypress" },
   { icon: <TbBrandGoogleAnalytics />, name: "GoogleAnalytics" },
-  { icon: <SiGoogletagmanager />, name: "Googletagmanager" },
+  { icon: <SiGoogletagmanager />, name: "GTM" },
   { icon: <RiTailwindCssFill />, name: "TailwindCss" },
   { icon: <SiExpress />, name: "Express" },
   { icon: <SiJest />, name: "Jest" },

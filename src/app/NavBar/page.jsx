@@ -19,6 +19,7 @@ const Navbar = () => {
           <li key={index} className="list-none">
             <a
               href={list?.link}
+              target={list?.target ? list?.target : "_self"}
               className="inline-block text-background-blue hover:text-white transform transition-transform duration-300 hover:scale-150"
             >
               {list?.name}
@@ -39,6 +40,7 @@ const Navbar = () => {
           <li key={index} className="list-none" onClick={() => setOpen(false)}>
             <a
               href={list?.link}
+              target={list?.target ? list?.target : "_self"} // Handle target for new tab (CV)
               className="inline-block text-background-blue hover:text-white transform transition-transform duration-300 hover:scale-150"
             >
               {list?.name}

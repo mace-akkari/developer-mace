@@ -5,6 +5,7 @@ import IntroSection from "./IntroSection/page";
 import About from "./AboutSection/page";
 import Skills from "./SkillsSection/page";
 import Project from "./ProjectsSection/page";
+import Footer from "./Footer/page";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Skills />
       <Project />
+      <Footer />
     </div>
   );
 }

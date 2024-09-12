@@ -20,14 +20,13 @@ const IntroSection = () => {
   return (
     <section
       id="details"
-      className="min-h-screen flex pb-10 pt-16 gap-10 px-7 md:flex-row flex-col items-center"
+      className="flex pt-16 gap-10 px-7 md:min-h-screen md:flex-row flex-col items-center"
     >
       <img
         src="/images/profilePic.png"
         alt="main image"
-        className="md:w-3/4 object-cover flex-1 flex items-center justify-center h-full rounded-full md:rounded-lg border border-white pt-8 md:pt-0"
+        className="w-80 h-80 md:w-3/4 md:h-auto object-cover rounded-full md:rounded-lg border border-white mt-8 md:mt-0"
       />
-
       <div className="flex-1 flex flex-col items-center md:items-start">
         <h1 className="lg:text-5xl md:text-5xl text-4xl md:leading-normal leading-10 text-custom-dark-blue font-bold">
           Mace Akkari

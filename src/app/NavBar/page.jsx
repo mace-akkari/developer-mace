@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import navList from "./NavList";
 import { BiMenu } from "react-icons/bi";

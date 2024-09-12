@@ -1,3 +1,5 @@
+"use client";
+
 import AboutMe from "./aboutMe";
 
 const About = () => {

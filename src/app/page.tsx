@@ -1,11 +1,11 @@
 "use client";
 
-import Navbar from "./NavBar/page";
-import IntroSection from "./IntroSection/page";
+import Navbar from "./NavBar/page.jsx";
+import IntroSection from "./IntroSection/page.jsx";
 import About from "./AboutSection/page";
-import Skills from "./SkillsSection/page";
-import Project from "./ProjectsSection/page";
-import Footer from "./Footer/page";
+import Skills from "./SkillsSection/page.jsx";
+import Project from "./ProjectsSection/page.jsx";
+import Footer from "./Footer/page.jsx";
 
 export default function Home() {
   return (

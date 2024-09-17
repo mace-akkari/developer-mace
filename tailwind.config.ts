@@ -9,8 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "background-blue": "#11f3ff",
-        "custom-dark-blue": "#288ab7",
+        "background-blue": "#b0e0e6",
+        "background-text-color": "#1a1a1a",
+        "custom-dark-blue": "#1a4d6d",
+        "custom-text-color": "#ffffff",
       },
       spacing: {
         "14": "3.5rem",

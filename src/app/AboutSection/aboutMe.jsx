@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div className="flex flex-col items-center md:gap-6 gap-12 max-w-6xl mx-auto text-custom-dark-blue mt-5">
+    <div className="flex flex-col items-center md:gap-6 gap-12 max-w-6xl mx-auto text-#ffffff mt-5">
       <p className="text-justify leading-7 w-11/12 mx-auto text-xl lg:text-2xl">
         As a passionate and experienced Full Stack Developer, I specialise in
         user-centric solutions and workflow optimization. Proficient in

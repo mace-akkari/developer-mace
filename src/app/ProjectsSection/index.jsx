@@ -12,7 +12,7 @@ const Project = () => {
   return (
     <section id="projects" className="pb-10 pt-24">
       <div className="flex justify-center text-4xl font-semibold gap-2">
-        <h3 className="text-custom-dark-bluee">Projects</h3>
+        <h3 className="text-background-text-color">Projects</h3>
       </div>
       <br />
 

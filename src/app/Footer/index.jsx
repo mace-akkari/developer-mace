@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="bg-custom-dark-blue text-white py-6">
+    <footer className="bg-custom-dark-blue text-custom-text-color py-6">
       <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between md:items-center text-center md:text-left">
         <div className="flex flex-col items-center md:items-start mb-4 md:mb-0 md:w-1/3">
           <h3 className="text-xl font-semibold">Mace Akkari</h3>

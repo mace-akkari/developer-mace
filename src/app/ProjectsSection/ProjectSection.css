@@ -1,7 +1,7 @@
 .swiper-pagination-bullet {
   width: 16px !important;
   height: 16px !important;
-  background-color: #288ab7 !important;
+  background-color: #1a4d6d !important;
   margin: 0 4px !important;
   border: 1px solid white;
 }
@@ -20,7 +20,7 @@
   justify-content: center;
   width: 30px;
   height: 30px;
-  background-color: #288ab7;
+  background-color: #1a4d6d;
   color: white;
   border-radius: 50%;
   cursor: pointer;
